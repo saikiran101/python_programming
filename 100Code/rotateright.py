@@ -1,0 +1,16 @@
+#a = list(map(int,input("ENTER ARRAY ELEMENTS ").split()))
+#k = int(input("ENTER NO.OF ROTATIONS "))
+#print("ARRAY BEFORE ROTATION ",*a)
+#k=k%len(a)
+#for i in range(k):
+#    x=a.pop(-1)
+#    a.insert(0,x)
+#print("ARRAY AFTER ROTATION  ",*a)
+a=list(map(int,input("ENTER ARRAY ELEMENTS ").split()))
+k=int(input("ENTER NO.OF ROTATIONS "))
+print("ARRAY BEFORE ROTATION ",*a)
+k=k%len(a)
+for i in range(k):
+    x=a.pop(-1)
+    a.insert(0,x)
+print("ARRAY AFTER  ROTATION  ",*a)
