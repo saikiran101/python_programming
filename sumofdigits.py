@@ -5,3 +5,4 @@ for val in range(0,len(n)):
 
 print(sum)
 print(n)
+#num=list(int(input("enter list")))

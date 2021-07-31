@@ -1,12 +1,10 @@
-
-
 def palindrome(n):
     return n==n[::-1]
 
 
 
 #driver
-n="sai"
+n="111"
 solution=palindrome(n)
 
 if solution:
