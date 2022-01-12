@@ -1,6 +1,6 @@
 import sys
 l="bale"
-s="elb"
+s="elbz"
 if len(l)!=len(s):
     print("not an anagram")
     sys.exit()

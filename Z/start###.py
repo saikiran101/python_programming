@@ -1,0 +1,5 @@
+s=input("enter the string: ")
+x=s.count("#")
+s=s.replace("#","")
+print(s)
+print("#"*x+s)
