@@ -7,7 +7,7 @@ def countinversions(arr,n):
     return count
 
 
-arr=[20,4,1,5,6]
+arr=[20,4,1,5,3,2]
 n=len(arr)
 res=countinversions(arr,n)
 print(res)
