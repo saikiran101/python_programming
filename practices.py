@@ -47,3 +47,12 @@
 #for i in range(0,20):
 #    if num%i==1:
 #        print("it is prime:",i)
+
+n=int(input())
+arr=[]
+for i in range(n):
+    col = []
+    for j in range(n):
+        col.append(0)
+    arr.append(col)
+    arr[i][j]

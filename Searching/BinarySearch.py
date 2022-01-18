@@ -17,8 +17,8 @@ def BinarySearch(list,n):
 list=[12, 24, 32, 39, 45, 50, 54]
 n=45
 res=BinarySearch(list,n)
-if res!=-1:
-    print("element found ",str(res))
-else:
+if res==-1:
     print("not found")
+else:
+    print("element found ",list[res])
     
